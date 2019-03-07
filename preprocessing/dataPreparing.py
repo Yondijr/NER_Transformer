@@ -20,7 +20,6 @@ class data_holder:
             self.notInVocabSrc = dummySrc
 
         self.dataTokenized, self.labelTokenized = self.tokenize() #!!
-        print(self.dataTokenized)
 
     def format_input(self):
         data = []
